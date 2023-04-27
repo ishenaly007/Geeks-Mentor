@@ -57,4 +57,7 @@ dependencies {
 
     // glide
     implementation 'com.github.bumptech.glide:glide:4.15.1'
+
+    //Code verification view
+    implementation "com.github.fraggjkee:sms-confirmation-view:1.7.1"
 }
