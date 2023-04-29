@@ -33,4 +33,5 @@
     <string name="continue_board1">Далее</string>
     <string name="only_best_mentors">Только лучшие ментора</string>
     <string name="skip">Пропустить</string>
+    <string name="todo">TODO</string>
 </resources>
