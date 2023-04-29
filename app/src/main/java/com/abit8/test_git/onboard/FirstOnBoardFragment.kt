@@ -27,7 +27,7 @@ class FirstOnBoardFragment : Fragment(){
             val fragmentManager = requireActivity().supportFragmentManager
             val fragmentTransaction = fragmentManager.beginTransaction()
 //            fragmentTransaction.setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out, android.R.anim.fade_in, android.R.anim.fade_out)
-            fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN) // более плавный, но выходит белая фигня сверху
+            fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN) 
             fragmentTransaction.replace(R.id.container_main, SecondOnBoardFragment())
             fragmentTransaction.addToBackStack(null) // позволяет вернуться назад
             fragmentTransaction.commit()
