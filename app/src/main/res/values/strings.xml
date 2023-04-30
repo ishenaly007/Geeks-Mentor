@@ -11,9 +11,4 @@
     <string name="login_failed">"Login failed"</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="multiplication_symbol">×</string>
-    <string name="no_or_bad_connection">    Плохое соединение</string>
-    <string name="connection_description">Попробуйте переподключиться или \n перейти на мобильный интернет</string>
-    <string name="wait">Подождать</string>
-    <string name="exit">Выйти</string>
 </resources>
