@@ -60,4 +60,7 @@ dependencies {
 
     //Code verification view
     implementation "com.github.fraggjkee:sms-confirmation-view:1.7.1"
+
+    //Rounded Image View
+    implementation 'com.makeramen:roundedimageview:2.3.0'
 }
