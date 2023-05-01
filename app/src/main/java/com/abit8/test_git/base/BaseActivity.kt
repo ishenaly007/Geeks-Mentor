@@ -25,5 +25,15 @@ abstract class BaseActivity<VB : ViewBinding, VM : BaseViewModel> : AppCompatAct
     open fun initViewModels() {} // все обзерверы нашего ViewModel\'a
     open fun initListener() {} // проверка на подключение к интернету
 
-
+//    override fun onStart() {
+//        val filter = IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION)
+//        registerReceiver(networkChangeListener, filter)
+//        super.onStart()
+//    }
+//
+//    override fun onStop() {
+//        unregisterReceiver(networkChangeListener)
+//        super.onStop()
+//    }
+    //этот код надо будет добавить в base fragment и проверить
 }

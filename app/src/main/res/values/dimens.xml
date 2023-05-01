@@ -1,5 +1,16 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
- <dimen name="fragment_horizontal_margin">16dp</dimen>
- <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="card_corner_radius">28dp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_padding_12">12dp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="margin_start_end_56">56dp</dimen>
+    <dimen name="margin_bootom_20">20dp</dimen>
+    <dimen name="margin_top_16">16dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="margin_top_24">24dp</dimen>
+    <dimen name="card_height">252dp</dimen>
+    <dimen name="card_with">312dp</dimen>
 </resources>
