@@ -33,9 +33,13 @@
     <string name="continue_board1">Далее</string>
     <string name="only_best_mentors">Только лучшие ментора</string>
     <string name="skip">Пропустить</string>
+
+    <string name="todo">TODO</string>
+
     <string name="repeat">Повторить</string>
     <string name="exit">Выйти</string>
     <string name="no_internet_desc">Попробуйте переподключиться или\n перейти на мобильный интернет</string>
     <string name="bad_connection">Плохое соединение</string>
     <string name="close_sign">×</string>
+
 </resources>
