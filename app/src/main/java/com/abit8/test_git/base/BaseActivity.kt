@@ -20,10 +20,9 @@ abstract class BaseActivity<VB : ViewBinding, VM : BaseViewModel> : AppCompatAct
         initListener()
     }
 
-    open fun isConnection() {} // инициализация вьюшек
-    open fun initViews() {}  // все наши клики
+    open fun isConnection() {} // проверка на подключение к интернету
+    open fun initViews() {}  // инициализация вьюшек
     open fun initViewModels() {} // все обзерверы нашего ViewModel\'a
-    open fun initListener() {} // проверка на подключение к интернету
-
+    open fun initListener() {} // инициализация кнопок
 
 }
